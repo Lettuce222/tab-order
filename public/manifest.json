@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "My Chrome Extension",
+  "version": "1.0",
+  "description": "This is my first Chrome extension.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "192": "logo192.png",
+      "512": "logo512.png"
+    }
+  },
+  "icons": {
+    "192": "logo192.png",
+    "512": "logo512.png"
+  },
+  "permissions": ["tabs"]
+}
